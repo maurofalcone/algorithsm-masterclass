@@ -1,0 +1,47 @@
+.tableWrapper {
+    position: relative;
+    min-height: 450px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+.tableWrapper table {
+    border: none;
+    border-collapse: collapse;
+}
+
+.container:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.total {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 20px;
+}
+
+.tableWrapper tbody tr:nth-child(even) {
+    background-color: #555;
+}
+
+.tableWrapper tbody tr.selectedRow {
+    background-color: #6F38C5;
+}
+
+.productHeader {
+    padding: 0px 10px 0px 0px !important;
+    justify-content: flex-start !important;
+}
+
+.priceHeader {
+    flex-direction: row-reverse !important;
+    padding: 0px 0px 0px 10px !important;
+    justify-content: flex-start !important;
+}
+
+.tableData {
+    font-size: 20px;
+}

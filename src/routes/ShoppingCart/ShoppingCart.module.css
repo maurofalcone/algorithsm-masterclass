@@ -1,0 +1,27 @@
+.form {
+    display: flex;
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    right: 0;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.selectedProduct {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    font-size: 14px;
+    top: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 350px;
+}
